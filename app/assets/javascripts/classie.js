@@ -1,7 +1,7 @@
 /*!
  * classie - class helper functions
  * from bonzo https://github.com/ded/bonzo
- * 
+ *
  * classie.has( elem, 'my-class' ) -> true/false
  * classie.add( elem, 'my-new-class' )
  * classie.remove( elem, 'my-unwanted-class' )
@@ -30,10 +30,10 @@ if ( 'classList' in document.documentElement ) {
     return elem.classList.contains( c );
   };
   addClass = function( elem, c ) {
-    elem.classList.add( c );
+    // elem.classList.add( c );
   };
   removeClass = function( elem, c ) {
-    elem.classList.remove( c );
+    // elem.classList.remove( c );
   };
 }
 else {
