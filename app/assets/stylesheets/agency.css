@@ -81,3 +81,6 @@ section h2.section-heading{font-size:40px;margin-top:0;margin-bottom:15px}sectio
         -webkit-text-decoration-color: black;
         text-decoration-color: black;
       }
+h3{
+  line-height: 2em;
+}
